@@ -1,0 +1,17 @@
+#forceclick {
+  display: block;
+  width: 5em;
+  height: 5em;
+  background: #313235;
+  color: white;
+  font-size: 3em;
+  line-height: 3em;
+  border-radius: 2px;
+  
+}
+#forceclick[mouse-down] {
+  background: rgb(255, 57, 57);
+}
+#forceclick[force-down] {
+  background: rgb(33, 129, 255);
+}

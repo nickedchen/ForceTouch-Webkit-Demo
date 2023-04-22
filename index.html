@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="raster.css" />
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <h1>Force Touch Webkit Demo</h1>
+    <r-grid columns="4">
+      <r-cell span="1">
+        <p>
+          The Force Touch API is available in Webkit browsers on Macs with Force Touch trackpads. This demo shows how to
+          use the API to detect force touch events.
+        </p>
+
+        <p>Force Touch events are available in macOS 10.11 and later on devices equipped with Force Touch trackpads.</p>
+        <p>
+          <a
+            href="https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/RespondingtoForceTouchEventsfromJavaScript.html">
+            Apple's documentation
+          </a>
+        </p>
+      </r-cell>
+
+      <r-cell span="1">
+        <pre id="forcelog">Waiting for force touch...</pre>
+      </r-cell>
+
+      <r-cell span="2">
+        <div id="forceclick"></div>
+      </r-cell>
+    </r-grid>
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="forceTouch.js"></script>
+  </body>
+</html>
